@@ -1,16 +1,9 @@
-# Projeto Sistema de Elevador
+Projeto Sistema de Elevador Simples
+Um sistema de simulação de elevador, desenvolvido em Java. Este projeto foca em demonstrar conceitos fundamentais de programação orientada a objetos (POO) a partir de uma simulação do funcionamento básico de um elevador.
 
-Um sistema de simulação de elevador desenvolvido em Java. Este projeto visa demonstrar conceitos de programação orientada a objetos (POO), concorrência e gerenciamento de estado em um ambiente prático.
-
----
-
-## 🚀 Funcionalidades
-
-* **Múltiplos Elevadores:** Suporte para múltiplos elevadores operando independentemente.
-* **Chamadas Internas e Externas:** Gerenciamento de solicitações de dentro do elevador (painel de controle) e de fora (botões de chamada nos andares).
-* **Otimização de Rota:** Lógica para determinar a melhor rota para os elevadores atenderem às chamadas de forma eficiente.
-* **Simulação de Movimento:** Representação do movimento do elevador entre os andares.
-* **Portas e Status:** Gerenciamento do estado das portas (aberta/fechada) e do status do elevador (parado/subindo/descendo).
-* **Interface Básica (Opcional):** Você pode adicionar uma interface de texto simples ou uma GUI para visualizar a simulação.
-
----
+🚀 Funcionalidades
+Chamadas Internas: Capacidade de selecionar andares a partir do painel de controle dentro do elevador.
+Chamadas Externas: Recebe solicitações de passageiros nos andares (botões de "chamar" para subir ou descer).
+Movimento Simplificado: Simulação do movimento do elevador entre os andares, incluindo paradas.
+Gerenciamento de Portas: Lógica para abrir e fechar as portas do elevador nos andares.
+Status do Elevador: Informa o andar atual e o estado de operação (parado, subindo, descendo, portas abertas/fechadas).
